@@ -1,1 +1,4 @@
-<canvas width="300" height="300" ng-click="placeCounter($event)"></canvas>
+<canvas width="300" height="300" ng-click="placeCounter($event)" ng-style="{'background-color': backgroundColor()}"></canvas>
+<div ng-controller="clearCtrl">
+    <button ng-click="resetBoard()">Clear</button>
+</div>
